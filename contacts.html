@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-js" lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="content" content="Anton´s CV" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="theme-color" content="#fafafa" />
+    <title>Anton´s CV kontaktuppgifter</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <main>
+      <!--MOBIL NAV-->
+<nav>
+  <div class="wraper">
+    <button>
+      <div id="hamburger" class="hamburger">
+        <span></span>
+        <span class="left"></span>
+        <span></span>
+      </div>
+      </button>
+    </div>
+
+<!--DATOR NAV-->
+      
+      <ul id="ul-nav" class="ul-nav">
+        <li><a href="experience.html">ERFARANHETER</a></li>
+        <li><a href="contacts.html">KONTAKT</a></li>
+        <li><a href="index.html">START</a></li>
+      </ul>
+    </nav>
+
+      <section class="section_4">
+        <header>
+          <h2>Kontakta mig</h2>
+        </header>
+
+      <div class="grid_container">
+        <div class="item"><h3>Instagram:</h3><p>antontjm</p>
+          <a href="https://www.instagram.com/antontjm/"> <img src="img/Instagram.png" alt="instagram"></a>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+
+        <div class="item"><h3>LinkedIn learning:</h3><p>Anton Torkkeli</p>
+          <a href="https://www.linkedin.com/learning/?u=57075785"><img src="img/LinkedIn.png" alt="linkedin"> </a>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+
+        <div class="item"><h3>Github:</h3><p>KodareAnton</p>
+          <a href="https://github.com/kodareAnton"> <img src="img/Github.png" alt="github"></a>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+        
+        <div class="item"><h3>Email:</h3><p>antontorkkeli@yahoo.com</p>
+          <a href="https://se.yahoo.com/"> <img src="img/Yahoo.png" alt="yahoo"></a>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+
+      </div>
+
+      </section>
+
+      <footer>
+        <p>antontorkkeli@yahoo.com</p>
+      </footer>
+    </main>
+
+    <script>
+      const hamburger = document.getElementById('hamburger');
+      const navUL = document.getElementById('ul-nav');
+      hamburger.addEventListener('click', () => {
+        console.log("clikced")
+      navUL.classList.toggle('show');
+      });
+      </script>
+
+  </body>
+</html>

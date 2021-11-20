@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="no-js" lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="content" content="Anton´s CV" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Anton CV</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Petemoss&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <main>
+<!--MOBIL NAV-->
+<nav>
+    <div class="wraper">
+      <button>
+        <div id="hamburger" class="hamburger">
+          <span></span>
+          <span class="left"></span>
+          <span></span>
+        </div>
+        </button>
+      </div>
+
+<!--DATOR NAV-->
+        
+        <ul id="ul-nav" class="ul-nav">
+          <li><a href="experience.html">ERFARANHETER</a></li>
+          <li><a href="contacts.html">KONTAKT</a></li>
+          <li><a href="index.html">START</a></li>
+        </ul>
+      </nav>
+
+        <header>
+          <h1>Anton Torkkeli</h1>
+        </header>
+      
+
+<section class="section_1">
+        <article>
+            <h3>Vem är jag?</h3>
+         <p> Hej! Jag heter Anton och håller på att utbilda mig till front end
+          developer på Mediainstitutet. Jag har ett stort datorintresse och
+          tycker det är viktigt när det kommer till hemsidor att den är designad
+          utifrån att alla kan använda den.</p>
+        </article>
+
+      <figure>
+          <img src="img/profilbild.jpg" alt="profil_photo" />
+          <figcaption>Foto på mig</figcaption>
+      </figure>
+</section>
+    </main>
+
+    <footer>
+      <p>antontorkkeli@yahoo.com</p>
+    </footer>
+    
+<script>
+const hamburger = document.getElementById('hamburger');
+const navUL = document.getElementById('ul-nav');
+hamburger.addEventListener('click', () => {
+  console.log("clikced")
+navUL.classList.toggle('show');
+});
+</script>
+
+  </body>
+</html>

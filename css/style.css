@@ -1,0 +1,368 @@
+@media screen and (min-width: 700px) {
+  body .nav_mobile {
+    display: none;
+  }
+  body .wraper {
+    display: none;
+  }
+  body nav {
+    width: 100%;
+    background-color: #1726ac;
+  }
+  body nav ul {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  body nav ul li {
+    margin: 1%;
+    font-size: 1rem;
+    list-style: none;
+  }
+  body nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  body nav ul li a:hover {
+    color: #ff0d0d;
+    border-bottom: 2px solid red;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  body .section_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .section_1 p {
+    text-align: left;
+    font-size: 4rem;
+    margin: 2%;
+  }
+  body figure {
+    width: 50%;
+  }
+  body figure figcaption {
+    display: none;
+  }
+  body h2 {
+    margin: 0;
+    font-size: 4rem;
+  }
+  body .jobs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .jobs article {
+    border: 1px solid black;
+    width: 50%;
+  }
+  body .jobs article h3 {
+    text-align: center;
+  }
+  body .jobs article p {
+    margin-left: 10%;
+    text-align: left;
+    font-size: 1rem;
+  }
+  body .section_3 {
+    background-color: #008cff;
+  }
+  body .section_3 h2 {
+    font-family: 'Petemoss', cursive;
+    margin: 0;
+    text-align: center;
+    color: black;
+  }
+  body .section_3 ul {
+    margin: 0;
+    text-align: center;
+    list-style: none;
+  }
+  body .section_3 ul li {
+    color: black;
+  }
+  body .grid_container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    background-color: #14a8ec;
+  }
+  body .grid_container .item {
+    text-align: center;
+    padding-top: 10%;
+    height: 16rem;
+  }
+  body .grid_container .item h3 {
+    font-size: 2rem;
+  }
+  body .grid_container .item img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  body .ul-nav {
+    display: none;
+  }
+  body .ul-nav.show {
+    display: block;
+  }
+  body nav {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  body nav .wraper {
+    background-color: #0051ff;
+  }
+  body nav .wraper button {
+    background-color: transparent;
+    margin: 5%;
+    border: 0;
+  }
+  body nav .wraper button .hamburger {
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-size: 20px;
+  }
+  body nav .wraper button .hamburger span {
+    background-color: black;
+    width: 50px;
+    height: 7px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: block;
+    border-radius: 40px;
+    position: relative;
+  }
+  body nav ul {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.911);
+    list-style: none;
+    font-size: 100%;
+  }
+  body nav ul li {
+    text-align: center;
+    color: #fffdfd;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 10%;
+  }
+  body nav ul li a {
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+  }
+  body nav ul li a:hover {
+    font-size: 110%;
+    border-bottom: 3px solid red;
+  }
+  body .section_1 p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  body .section_1 figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  body .section_1 figure img {
+    height: 100%;
+    width: 100%;
+  }
+  body .section_1 figcaption {
+    display: none;
+  }
+  body h2 {
+    margin: 2%;
+    font-size: 3rem;
+    margin: 0;
+  }
+  body .section_2 {
+    text-align: center;
+  }
+  body .section_2 article {
+    border-bottom: 2px solid black;
+  }
+  body .section_3 {
+    background-color: #008cff;
+  }
+  body .section_3 h2 {
+    padding-bottom: 1rem;
+    font-family: 'Petemoss', cursive;
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+  body .section_3 ul {
+    text-align: center;
+    margin: 0;
+    list-style: none;
+  }
+  body .section_3 ul li {
+    color: black;
+  }
+  body .section_4 {
+    text-align: center;
+  }
+  body .section_4 img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+body {
+  margin: 0%;
+  background-color: white;
+}
+
+@-webkit-keyframes myTextAnimation {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+@keyframes myTextAnimation {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+body header {
+  background-color: #2592eb;
+}
+
+body h1 {
+  font-size: 6rem;
+  font-family: 'Petemoss', cursive;
+  text-align: center;
+  border-bottom: 3px solid #a01717;
+  margin: 0;
+}
+
+body .section_1 {
+  margin: 0;
+  background-color: rgba(0, 183, 255, 0.76);
+}
+
+body .section_1 h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+body .section_1 p {
+  font-size: 200%;
+}
+
+body footer {
+  background-color: #3225eb;
+  border: 2px solid black;
+}
+
+body footer p {
+  color: white;
+  text-align: right;
+  margin: 0;
+}
+
+body .section_2 {
+  background-color: #00c8fa;
+}
+
+body .section_2 h2 {
+  text-align: center;
+  font-family: 'Petemoss', cursive;
+}
+
+body .section_2 h2 .jobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .section_2 h2 .jobs article {
+  text-align: right;
+}
+
+body .section_2 h2 .jobs article h3 {
+  font-size: 2rem;
+}
+
+body .section_2 h2 .jobs article h3 p {
+  font-size: 1rem;
+}
+
+body .section_3 h2 {
+  position: relative;
+  margin-bottom: 1%;
+}
+
+body .section_3 h2 .styrkor {
+  position: absolute;
+  left: 0;
+  background: linear-gradient(208deg, #000000, #1100ff, #ffffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 4rem;
+  z-index: 1;
+}
+
+body .section_3 h2 .jag_har {
+  position: absolute;
+  left: 0;
+  top: 37px;
+  background: linear-gradient(208deg, #ff000069, rgba(255, 6, 6, 0.363), #f60a0a60);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3rem;
+}
+
+body .section_4 {
+  background-color: #14a8ec;
+  height: 100%;
+}
+
+body .section_4 .grid_container {
+  height: 100%;
+}
+
+body .section_4 h2 {
+  text-align: center;
+  font-family: 'Petemoss', cursive;
+}
+/*# sourceMappingURL=style.css.map */
