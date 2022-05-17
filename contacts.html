@@ -8,56 +8,82 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta name="theme-color" content="#fafafa" />
     <title>Anton´s CV kontaktuppgifter</title>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Petemoss&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <main>
       <!--MOBIL NAV-->
-<nav>
-  <div class="wraper">
-    <button>
-      <div id="hamburger" class="hamburger">
-        <span></span>
-        <span class="left"></span>
-        <span></span>
-      </div>
-      </button>
-    </div>
+      <nav>
+        <div class="wraper">
+          <button>
+            <div id="hamburger" class="hamburger">
+              <span></span>
+              <span class="left"></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
 
-<!--DATOR NAV-->
-      
-      <ul id="ul-nav" class="ul-nav">
-        <li><a href="experience.html">ERFARANHETER</a></li>
-        <li><a href="contacts.html">KONTAKT</a></li>
-        <li><a href="index.html">START</a></li>
-      </ul>
-    </nav>
+        <!--DATOR NAV-->
+        <!--DATOR NAV-->
+
+        <ul id="ul-nav" class="ul-nav">
+          <li><a href="about.html">Om mig</a></li>
+          <li><a href="experience.html">Jobberfarenheter</a></li>
+          <li><a href="contacts.html">Kontakt</a></li>
+          <li><a href="index.html">Start</a></li>
+        </ul>
+      </nav>
 
       <section class="section_4">
         <header>
           <h2>Kontakta mig</h2>
         </header>
 
-      <div class="grid_container">
-        <div class="item"><h3>Instagram:</h3><p>antontjm</p>
-          <a href="https://www.instagram.com/antontjm/"> <img src="img/Instagram.png" alt="instagram"></a>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+        <div class="grid_container">
+          <div class="item">
+            <h3>Instagram:</h3>
+            <p>antontjm</p>
+            <a href="https://www.instagram.com/antontjm/">
+              <img src="img/Instagram.png" alt="instagram"
+            /></a>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
 
-        <div class="item"><h3>LinkedIn learning:</h3><p>Anton Torkkeli</p>
-          <a href="https://www.linkedin.com/learning/?u=57075785"><img src="img/LinkedIn.png" alt="linkedin"> </a>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+          <div class="item">
+            <h3>LinkedIn learning:</h3>
+            <p>Anton Torkkeli</p>
+            <a href="https://www.linkedin.com/learning/?u=57075785"
+              ><img src="img/LinkedIn.png" alt="linkedin" />
+            </a>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
 
-        <div class="item"><h3>Github:</h3><p>KodareAnton</p>
-          <a href="https://github.com/kodareAnton"> <img src="img/Github.png" alt="github"></a>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-        
-        <div class="item"><h3>Email:</h3><p>antontorkkeli@yahoo.com</p>
-          <a href="https://se.yahoo.com/"> <img src="img/Yahoo.png" alt="yahoo"></a>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+          <div class="item">
+            <h3>Github:</h3>
+            <p>KodareAnton</p>
+            <a href="https://github.com/kodareAnton">
+              <img src="img/Github.png" alt="github"
+            /></a>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
 
-      </div>
-
+          <div class="item">
+            <h3>Email:</h3>
+            <p>antontorkkeli@yahoo.com</p>
+            <a href="https://se.yahoo.com/">
+              <img src="img/Yahoo.png" alt="yahoo"
+            /></a>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </div>
       </section>
 
       <footer>
@@ -66,13 +92,12 @@
     </main>
 
     <script>
-      const hamburger = document.getElementById('hamburger');
-      const navUL = document.getElementById('ul-nav');
-      hamburger.addEventListener('click', () => {
-        console.log("clikced")
-      navUL.classList.toggle('show');
+      const hamburger = document.getElementById("hamburger");
+      const navUL = document.getElementById("ul-nav");
+      hamburger.addEventListener("click", () => {
+        console.log("clikced");
+        navUL.classList.toggle("show");
       });
-      </script>
-
+    </script>
   </body>
 </html>

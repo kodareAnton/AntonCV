@@ -7,7 +7,7 @@
   }
   body nav {
     width: 100%;
-    background-color: #1726ac;
+    background-color: #1677c7;
   }
   body nav ul {
     margin: 0;
@@ -21,7 +21,7 @@
   }
   body nav ul li {
     margin: 1%;
-    font-size: 1rem;
+    font-size: 2rem;
     list-style: none;
   }
   body nav ul li a {
@@ -29,8 +29,8 @@
     color: white;
   }
   body nav ul li a:hover {
-    color: #ff0d0d;
-    border-bottom: 2px solid red;
+    color: black;
+    border-bottom: 3px solid black;
     -webkit-transition: 1s;
     transition: 1s;
   }
@@ -46,7 +46,6 @@
   body .section_1 p {
     text-align: left;
     font-size: 4rem;
-    margin: 2%;
   }
   body figure {
     width: 50%;
@@ -94,18 +93,17 @@
     list-style: none;
   }
   body .section_3 ul li {
-    color: black;
+    color: white;
   }
   body .grid_container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
-    background-color: #14a8ec;
   }
   body .grid_container .item {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 1%;
     height: 16rem;
   }
   body .grid_container .item h3 {
@@ -159,7 +157,7 @@ body {
   }
   body nav ul {
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(0, 0, 0, 0.664);
     list-style: none;
     font-size: 100%;
   }
@@ -222,7 +220,7 @@ body {
     list-style: none;
   }
   body .section_3 ul li {
-    color: black;
+    color: white;
   }
   body .section_4 {
     text-align: center;
@@ -235,7 +233,7 @@ body {
 
 body {
   margin: 0%;
-  background-color: white;
+  background-color: rgba(0, 153, 255, 0.404);
 }
 
 @-webkit-keyframes myTextAnimation {
@@ -270,7 +268,6 @@ body h1 {
 
 body .section_1 {
   margin: 0;
-  background-color: rgba(0, 183, 255, 0.76);
 }
 
 body .section_1 h3 {
@@ -281,21 +278,6 @@ body .section_1 h3 {
 
 body .section_1 p {
   font-size: 200%;
-}
-
-body footer {
-  background-color: #3225eb;
-  border: 2px solid black;
-}
-
-body footer p {
-  color: white;
-  text-align: right;
-  margin: 0;
-}
-
-body .section_2 {
-  background-color: #00c8fa;
 }
 
 body .section_2 h2 {
@@ -333,7 +315,7 @@ body .section_3 h2 {
 body .section_3 h2 .styrkor {
   position: absolute;
   left: 0;
-  background: linear-gradient(208deg, #000000, #1100ff, #ffffff);
+  background: linear-gradient(208deg, #ffffff, #1100ff, #000000);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -353,7 +335,6 @@ body .section_3 h2 .jag_har {
 }
 
 body .section_4 {
-  background-color: #14a8ec;
   height: 100%;
 }
 
@@ -362,7 +343,24 @@ body .section_4 .grid_container {
 }
 
 body .section_4 h2 {
-  text-align: center;
+  font-size: 6rem;
   font-family: 'Petemoss', cursive;
+  text-align: center;
+  border-bottom: 3px solid rgba(160, 23, 23, 0.623);
+  margin: 0;
+}
+
+body footer {
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
+  background-color: #1677c7;
+}
+
+body footer p {
+  padding-right: 2%;
+  color: white;
+  text-align: right;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

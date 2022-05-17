@@ -1,5 +1,6 @@
 body {
 
+
     @media screen and (min-width: 700px) {
 
         .nav_mobile {
@@ -14,7 +15,7 @@ body {
 
         nav {
             width: 100%;
-            background-color: rgb(23, 38, 172);
+            background-color: rgb(22, 119, 199);
     
             ul {
                 margin: 0;
@@ -23,7 +24,7 @@ body {
     
                 li {
                     margin: 1%;
-                    font-size: 1rem;
+                    font-size: 2rem;
                     list-style: none;
     
                     a {
@@ -31,20 +32,16 @@ body {
                         color: white;
     
                         &:hover {
-                            color:rgb(255, 13, 13);
-                            border-bottom: 2px solid red; 
+                            color:rgb(0, 0, 0);
+                            border-bottom: 3px solid rgb(0, 0, 0); 
                             transition: 1s;
-                            //content:'';
-                            //width: 0;
-                            //height: 2px;
-                            //border: 2px solid red;
                         }
                     }
                 }
             }
         }
 
-        // Section_1
+// Section_1
 
 .section_1 {
     display: flex;
@@ -53,7 +50,6 @@ body {
         p {
             text-align: left;
             font-size: 4rem;
-            margin: 2%;
         }
     }
 
@@ -109,7 +105,7 @@ body {
                 list-style: none;
 
                 li {
-                    color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
                 }
             }
 
@@ -120,11 +116,10 @@ body {
     .grid_container {
         display: grid;
         grid-template-columns: auto auto;
-        background-color: rgb(20, 168, 236);
 
         .item {
            text-align: center;
-           padding-top: 10%;
+           padding-top: 1%;
             height: 16rem;
 
             h3 {
@@ -140,4 +135,4 @@ body {
 
 
 }
- }
+}

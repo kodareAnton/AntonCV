@@ -6,7 +6,7 @@ body {
     }
 
     margin: 0%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 153, 255, 0.404);
 
     header {
         background-color: rgb(37, 146, 235);
@@ -22,7 +22,6 @@ body {
 
     .section_1 {
         margin: 0;
-        background-color: rgba(0, 183, 255, 0.76);
 
         h3 {
             font-size: 2rem;
@@ -35,22 +34,11 @@ body {
         }
     }
 
-        footer {
-            background-color: rgb(50, 37, 235);
-            border: 2px solid black;
-
-            p {
-                color: rgb(255, 255, 255);
-                text-align: right;
-                margin: 0;
-            }
-        }
-
 
         //section 2 sida experiance
         
         .section_2 {
-            background-color: rgb(0, 200, 250);
+
 
             h2 {
                 text-align: center;
@@ -87,7 +75,7 @@ body {
                 .styrkor {
                     position: absolute;
                     left: 0;
-                    background: linear-gradient(208deg, #000000, rgb(17, 0, 255),#ffffff);
+                    background: linear-gradient(208deg, #ffffff, rgb(17, 0, 255),#000000);
                     -webkit-text-fill-color: transparent;
                     -webkit-background-clip: text;
                     background-clip: text;
@@ -110,7 +98,6 @@ body {
         //section 4 sida contacts
 
         .section_4 {
-            background-color: rgb(20, 168, 236);
             height: 100%;
 
             .grid_container {
@@ -119,9 +106,27 @@ body {
             }
 
             h2 {
-                text-align: center;
+                font-size: 6rem;
                 font-family: 'Petemoss', cursive;
+                text-align: center;
+                border-bottom: 3px solid rgba(160, 23, 23, 0.623);
+                margin: 0;
 
             }
         }
+
+        footer{
+            bottom: 0%;
+            position: fixed;
+            width: 100%;
+            background-color: rgb(22, 119, 199);
+
+            p{
+                padding-right: 2%;
+                color: rgb(255, 255, 255);
+                text-align: right;
+                margin: 0;
+            }
+        }
+        
 }

@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="content" content="Anton´s CV" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="theme-color" content="#fafafa" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Petemoss&display=swap"
+      rel="stylesheet"
+    />
+    <title>Om mig</title>
+  </head>
+  <body>
+    <!--MOBIL NAV-->
+    <nav>
+      <div class="wraper">
+        <button>
+          <div id="hamburger" class="hamburger">
+            <span></span>
+            <span class="left"></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+
+      <!--DATOR NAV-->
+
+      <ul id="ul-nav" class="ul-nav">
+        <li><a href="about.html">Om mig</a></li>
+        <li><a href="experience.html">Jobberfarenheter</a></li>
+        <li><a href="contacts.html">Kontakt</a></li>
+        <li><a href="index.html">Start</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Om mig</h1>
+    </header>
+
+    <footer>
+      <p>antontorkkeli@yahoo.com</p>
+    </footer>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navUL = document.getElementById("ul-nav");
+      hamburger.addEventListener("click", () => {
+        console.log("clikced");
+        navUL.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
