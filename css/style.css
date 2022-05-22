@@ -21,7 +21,7 @@
   }
   body nav ul li {
     margin: 1%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     list-style: none;
   }
   body nav ul li a {
@@ -45,7 +45,7 @@
   }
   body .section_1 p {
     text-align: left;
-    font-size: 4rem;
+    font-size: 100rem;
   }
   body figure {
     width: 50%;
@@ -267,17 +267,17 @@ body h1 {
 }
 
 body .section_1 {
-  margin: 0;
+  margin: 5%;
 }
 
 body .section_1 h3 {
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
   margin: 0;
 }
 
 body .section_1 p {
-  font-size: 200%;
+  font-size: 1.5rem;
 }
 
 body .section_2 h2 {

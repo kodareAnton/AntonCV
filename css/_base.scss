@@ -20,30 +20,29 @@ body {
         margin: 0;
     }
 
+    // section 1
+
     .section_1 {
-        margin: 0;
+        margin: 5%;
 
         h3 {
             font-size: 2rem;
-            text-align: center;
+            text-align: left;
             margin: 0;
         }
 
         p {
-            font-size: 200%;
+            font-size: 1.5rem;
         }
     }
 
-
-        //section 2 sida experiance
+        // Section 2 sida Experiance
         
         .section_2 {
-
 
             h2 {
                 text-align: center;
                 font-family: 'Petemoss', cursive;
-
 
                 .jobs {
                     display: flex;
@@ -61,10 +60,10 @@ body {
                     }
                     }
                 }
-            }   
+            }
         }
 
-        // section 3
+        // Section 3
 
         .section_3 {
 
@@ -95,14 +94,13 @@ body {
             }
         }
 
-        //section 4 sida contacts
+        // Section 4
 
         .section_4 {
             height: 100%;
 
             .grid_container {
                 height: 100%;
-
             }
 
             h2 {
@@ -111,7 +109,6 @@ body {
                 text-align: center;
                 border-bottom: 3px solid rgba(160, 23, 23, 0.623);
                 margin: 0;
-
             }
         }
 
@@ -127,6 +124,5 @@ body {
                 text-align: right;
                 margin: 0;
             }
-        }
-        
+        }       
 }
