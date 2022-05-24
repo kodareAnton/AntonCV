@@ -21,7 +21,7 @@
   }
   body nav ul li {
     margin: 1%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     list-style: none;
   }
   body nav ul li a {
@@ -277,6 +277,10 @@ body .section_1 h3 {
 
 body .section_1 p {
   font-size: 1.5rem;
+}
+
+body .section_1 img {
+  border-radius: 50%;
 }
 
 body .section_2 {
