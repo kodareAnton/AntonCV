@@ -15,7 +15,7 @@ body {
 
         nav {
             width: 100%;
-            background-color: rgb(22, 119, 199);
+            background-color: rgb(37, 146, 235);
     
             ul {
                 margin: 0;
@@ -33,7 +33,7 @@ body {
     
                         &:hover {
                             color:rgb(0, 0, 0);
-                            border-bottom: 3px solid rgb(0, 0, 0); 
+                            border-bottom: 3px solid rgb(105, 11, 11); 
                             transition: 1s;
                         }
                     }
@@ -111,7 +111,6 @@ body {
 
 
     }
-
 
     .grid_container {
         display: grid;
